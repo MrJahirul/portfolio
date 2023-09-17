@@ -1,0 +1,158 @@
+
+
+body{
+    background-color: #110b2a;
+}
+
+.mainNav {
+  background-color: rgb(44 41 38 / 51%);
+  display: flex;
+  
+  padding: 25px;
+  margin-left: 550px;
+  margin-right: 470px;
+  border-radius: 33px;
+}
+
+  
+  .mainNav li {
+    list-style-type: none;
+    padding-left: 28px;
+    text-align: center;
+    height: 22px;
+    align-items: center;
+    text-shadow: 0px 3px 6px
+  }
+  .mainNav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .mainNav li a:hover {
+    cursor: pointer;
+    color: #110b2a;
+    border: 1px solid white;
+    background-color: greenyellow;
+    border-radius: 3px;
+  }
+  
+  .textSet {
+    position: fixed;
+    color: white;
+    width: 30%;
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+  .intr {
+    font-size: 40px;
+  }
+  .creative {
+    position: relative;
+    margin-top: -35px;
+  }
+  .jahi {
+    color: #ff9344;
+    font-size: 50px;
+    margin-top: -35px;
+  }
+  
+  .ind{
+    color: #f8d65d;
+    font-weight: bolder;
+    font-size: 30px;
+    width: fit-content;
+    margin-inline: auto;
+    font-family: serif; 
+    font-weight: 700;
+    text-align: center;
+    background: 
+      linear-gradient(
+        to bottom,
+        gray,
+        black
+      ),
+      linear-gradient(
+      45deg, rgb(234, 126, 11) 0%, rgb(255, 252, 250) 50%, rgb(8, 243, 4) 100%
+    );
+    background-blend-mode: screen;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    animation: anime 2s infinite linear;
+    background-position-x: 0, 200%;
+    background-position-y: 0, 0;
+    background-size: 100% 100%, 100px 100%;
+    background-repeat: no-repeat;
+  }
+  
+  @keyframes anime {
+    0% {
+      background-position: 0 0, -200% 0;
+    }
+    70% {
+      background-position: 0 0, 200% 0;
+    }
+    
+  }
+  
+  
+  .btn {
+    background-color: #e37a19;
+    color: white;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 75px;
+    margin-top: 25px;
+    font-weight: bold;
+    transition: all ease 0.5s;
+  }
+  .btn:hover {
+    background-color: green;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 2px 3px 7px  rgb(210, 149, 149);
+  }
+
+  .imgg{
+    position: fixed;
+    margin-left:71%;
+    margin-top:33px;
+    transition: all ease 3s;
+    
+  }
+
+  .imgg:hover img{
+    scale: 1.2;
+  }
+
+  .socialMedia {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    /* border: 2px solid red; */
+    margin-top: 33%;
+    margin-left: 120px;
+    
+  }
+  .socialMedia a{
+    margin-left: 15px;
+    
+  }
+
+  .gitHub:hover img{
+    scale: 1.2;
+  }
+
+  .linkEd:hover img{
+    scale: 1.2;
+  }
+
+  .faceBook:hover img{
+    scale: 1.2;
+  }
+
+ .whatApp:hover{
+    scale: 1.2;
+  }

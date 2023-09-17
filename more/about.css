@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+}
+.textAbout{
+    color: rgb(1, 9, 15);
+    background: linear-gradient(yellow,orange,red,purple,blue);
+    width: 500px;
+    height: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    margin: 5px;
+    margin-left: 550px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    
+}

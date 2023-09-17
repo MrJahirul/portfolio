@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contaner{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+.box1{
+    height: 400px;
+    width: 450px;
+    border: 2px solid red;
+
+}
+.box1 h3{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+.box1 p{
+    margin: 10px;
+}
+
+.liveWeb input{
+width: 100px;
+height: 80px;
+margin-left: 150px;
+margin-top: 60px;
+}
+/* .liveWeb input:hover{
+    background-color: green;
+    cursor: pointer;
+    box-shadow: 2px 3px 7px  rgb(210, 149, 149);
+} */
+.box2{
+    height: 400px;
+    width: 450px;
+    border: 2px solid red 
+}
+.box3{
+    height: 400px;
+    width: 450px;
+    border: 2px solid red 
+}
